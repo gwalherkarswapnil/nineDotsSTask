@@ -15,8 +15,9 @@ class ContentViewModel: ObservableObject {
     
     let imageLoader: ImageLoaderProtocol
     let imageUrls = [
-        "https://unsplash.com/photos/a-cell-phone-on-a-stand-next-to-a-keyboard-0NWl3EbkUDg",
-        "https://unsplash.com/photos/silver-macbook-beside-white-ceramic-mug-on-brown-wooden-table-n4MLnDMOEf0"
+        "https://images.pexels.com/photos/236937/pexels-photo-236937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/1374286/pexels-photo-1374286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.unsplash.com/photo-1462331948351-d0422e4a3d85"
     ]
 
     init(imageLoader: ImageLoaderProtocol = ImageLoader()) {
